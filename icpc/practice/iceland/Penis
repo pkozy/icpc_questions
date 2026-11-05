@@ -1,0 +1,9 @@
+nums = input()
+
+r = int(nums.split(" ")[0])
+pubs = int(nums.split(" ")[1])
+
+start = (r - 1) * pubs
+
+for i in range(start, r*pubs):
+	

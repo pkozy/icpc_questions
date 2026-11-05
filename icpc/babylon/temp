@@ -1,0 +1,8 @@
+public static void printBlocklist(ArrayList<Block> blocklist) {
+        String op = {;
+        for (int i = 0; i < blocklist.length; i++) {
+            op += block + , ;
+        }
+        op+= };
+        System.out.println(op);
+    }
